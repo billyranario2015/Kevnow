@@ -1,0 +1,150 @@
+/* ---------* Reset CSS *------------ */
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Fonts *----------------- */
+/* ---------* end: Fonts *------------ */
+
+
+/* ---------* Header *---------------- */
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+section#coffee-types-content {
+	min-height: 500px;
+}
+section#coffee-types-content div.container div.coffee-options {
+	padding-top: 20px;
+}
+section.main-content div.container div.title-heading {
+	text-align: center;
+}
+section.main-content div.container div.title-heading h2 {
+	font-family: OpenSans, sans-serif;
+}
+section#coffee-types-content div.container div.coffee-options div.coffee-description {
+	margin-bottom: 50px;
+}
+section#coffee-types-content div.container div.coffee-options div.coffee-description:hover {
+  	cursor: pointer;
+}
+section#coffee-types-content div.container div.coffee-options div.coffee-description div.coffee-img {
+	border: 1px solid #eee5dc;
+  	text-align: center;
+  	padding: 25px 0;
+  	border-radius: 4px;
+  	background-color: #F5F5F5;
+}
+section#coffee-types-content div.container div.coffee-options div.coffee-description:hover div.coffee-img {
+	border: 1px solid #fff;
+  	background-color: #fff;
+}
+section#coffee-types-content div.container div.coffee-options div.coffee-description div.price-details 	{
+	text-align: center;
+	padding: 5px;
+}
+section#placed-order-content div.container div.order-wrapper div.placed-order-info div.info-box,
+section#placed-order-content div.container div.order-wrapper div.placed-order-info div.extra-selections
+{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 15px;
+	margin-bottom: 15px;
+	float: left;
+	width: 100%;
+}
+section#placed-order-content div.container div.order-wrapper div.placed-order-info div.coffee-logo img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px;
+	width: 100%;
+}
+section#placed-order-content div.container div.order-wrapper div.info p {
+	margin: 0;
+	font-size: 0.9em;
+}
+section#placed-order-content div.container div.order-wrapper div.info p {
+	margin: 0;
+	font-size: 0.9em;
+}
+section#placed-order-content div.container div.order-wrapper div.extra-selections div div#product-tablists {
+	padding-top: 15px;
+}
+section#placed-order-content div.container div.order-wrapper div.extra-selections div div#product-tablists {
+	padding-top: 15px;
+}
+section#placed-order-content div.container div.order-wrapper div.extra-selections div div.sweets-biscuits > ul > li {
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	border-bottom: 1px solid #eee;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel > div.panel-body {
+	padding: 8px 15px 0px;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel div.panel-heading h4  {
+	margin: 0;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel div ul#placed-orders li button {
+	border-radius: 20px;
+	width: 22px;
+	height: 22px;
+	padding: 0;
+	margin-right: 10px;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel div ul#placed-orders li {
+	font-size: .9em;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel div.panel-footer p {
+	font-size: 0.9em;
+	margin: 0;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel div.panel-footer h3 {
+	margin: 12px 0;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel div.panel-footer div.button {
+	padding-bottom: 18px;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+}
+section#placed-order-content div.container div.order-wrapper  div.order-panel div.panel div.panel-footer div.button button {
+	width: 100%;
+}
+section#order-confirmation-content div div.message {
+	text-align: center;
+}
+.order-panel {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	overflow: hidden;
+	padding: 15px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+}
+.order-panel h5 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.place-order-btn {
+	padding: 15px 0;
+	text-align: right;
+	border-top: 1px solid #ddd;
+	margin-top: 34px;
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+/* ---------* end: Override *--------- */
