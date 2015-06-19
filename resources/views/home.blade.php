@@ -12,9 +12,9 @@
 					Cities
 				</a>
 				<ul class="dropdown-menu" aria-labelledby="city-dropdown">
-					<li><a href="city/1">Houston</a></li>
-					<li><a href="city/2">Austin</a></li>
-					<li><a href="city/3">Dallas</a></li>
+					<li><a href="{{ url( 'city/1' ) }}">Houston</a></li>
+					<li><a href="{{ url( 'city/2' ) }}">Austin</a></li>
+					<li><a href="{{ url( 'city/3' ) }}">Dallas</a></li>
 				</ul>
 			</div>	
 		</div>		

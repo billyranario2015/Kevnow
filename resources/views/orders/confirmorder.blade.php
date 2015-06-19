@@ -50,7 +50,7 @@
 			</table>
 		</div>
 		<div class="proceed" style="text-align: right;margin: 20px 0">
-			<a href="/order/payment">
+			<a href="{{ url( '/order/payment' ) }}">
 				<button class="btn btn-success">Continue</button>
 			</a>
 		</div>

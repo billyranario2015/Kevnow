@@ -72,7 +72,7 @@
 					<p><b>State:</b> Some States </p>	
 					<p><b>Zip Code:</b> Some Zip Code </p>
 					<div class="place-order-btn">
-						<a href="/order/success">
+						<a href="{{ url( '/order/success' ) }}">
 							<button class="btn btn-success placed-order-btn">
 								Place Order
 							</button>							

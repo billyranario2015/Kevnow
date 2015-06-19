@@ -110,21 +110,7 @@
 					</div>
 					<div class="panel-body">
 						<ul class="list-unstyled" id="placed-orders">
-<!-- 							<li>
-								<button class="btn btn-default"><i class="glyphicon glyphicon-minus"></i></button>
-								Aero Caramel
-								<span class="pull-right">&pound;1.08</span>
-							</li>
-							<li>
-								<button class="btn btn-default"><i class="glyphicon glyphicon-minus"></i></button>
-								Aero Caramel
-								<span class="pull-right">&pound;1.08</span>
-							</li>
-							<li>
-								<button class="btn btn-default"><i class="glyphicon glyphicon-minus"></i></button>
-								Aero Caramel
-								<span class="pull-right">&pound;1.08</span>
-							</li> -->
+
 						</ul>
 					</div>
 					<div class="panel-footer">
@@ -132,7 +118,7 @@
 						<p>Delivery Fee: <strong class="pull-right">&pound;2.00</strong></p>
 						<h3>Total <span class="pull-right">&pound;<span class="total-amount"></span></span></h3>
 						<div class="button">
-							<a href="/order/confirmation">
+							<a href="{{ url( '/order/confirmation' ) }}">
 								<button class="btn btn-warning" id="btn-submit-order"> <i class="glyphicon glyphicon-shopping-cart"></i> Go to Checkout</button>
 							</a>
 						</div>
